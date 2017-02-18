@@ -21,12 +21,46 @@ nav ul{
 /* Body Styles */
 
 body {
-
+	background-color: #ad9eb5;
 }
 
+.container-filters{
+	border: 1px solid grey;
+	display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 250px;
+}
+
+form {
+	margin: 10px;
+}
+
+h5 {
+	font-size: 1em;
+}
+
+
 /* Left div form styles */
+
+.left-filter-bar {
+	background-color: #2B0241;
+	color: #ad9eb5;
+	margin: 10px 20px;
+	display: flex;
+	justify-content: row;
+	width: 50%;
+	font-size: .5em;
+}
 
 
 /* Right div list styles */
 
-
+.right-song-list {
+	background-color: lightyellow;
+	display: flex;
+	justify-content: row;
+	margin: 10px 20px;
+	width: 50%;
+	font-size: .5em;
+}
