@@ -1,0 +1,69 @@
+* {
+	padding: 0; 
+	margin: 0;
+	font-family: 'Catamaran', sans-serif;
+}
+
+/* Nav Styles */
+
+header {
+	background-color: #ab8fbb;
+	width: 100%;
+	padding: 10px;
+}
+
+nav ul{
+	color: #603578;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+/* Body Styles */
+
+body {
+	background-color: #ad9eb5;
+}
+
+.container-filters{
+	border: 1px solid grey;
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+
+	form {
+		margin: 10px;
+	}
+
+h5 {
+	font-size: 1em;
+}
+
+
+/* Left div form styles */
+
+.left-filter-bar {
+	background-color: #2B0241;
+	color: #ad9eb5;
+	margin: 10px 20px;
+	display: flex;
+	justify-content: row;
+	width: 30%;
+	font-size: .5em;
+}
+
+
+/* Right div list styles */
+	
+.right-song-list {
+	background-color: lightyellow;
+	margin: 10px 20px;
+	width: 70%;
+	font-size: .5em;
+}
+
+#song {
+	/*display: flex;*/   /*display: flex always needs to be on parent element*/
+	border: solid 1px black;
+	width: 100%;
+}

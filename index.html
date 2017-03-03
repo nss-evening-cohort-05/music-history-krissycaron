@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Music History</title>
+  <link rel="stylesheet" type="text/css" href="./sweetstyles.css">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+</head>
+	<body>
+		<header>
+			<nav class="main-nav">
+				<ul>
+					<a href="#/view_music">View Music</a>
+					<a href="#/add_music">Add Music</a>
+					<a href="#/Profile">Profile</a>
+				</ul>
+			</nav>
+		</header>
+			<div class="container-filters">
+				<div class="left-filter-bar">
+					<form>
+						<h5>Song Length:</h5>
+						<input type="range" name="song-length-range">
+						<h5>Artist</h5>
+						<select name="artist-name">
+							<option value="Justin_Timberlake" selected="selected">Justin Timberlake</option>
+							<option value="Chris_Stapleton">Chris Stapleton</option>
+							<option value="Dixie_Chicks">Dixie Chicks</option>
+							<option value="Dave_Mathews_Band">Dave Mathews Band</option>
+						</select>
+						<h5>Album</h5>
+						<select name="album-name">
+							<option value="the_20/20_experience" selected="selected">The 20/20 Experience</option>
+							<option value="traveler">Traveler</option>
+							<option value="take_the_long_way">Take the Long Way</option>
+							<option value="crash">Crash</option>
+							<option value="live_at_radio_city">Live at Radio City</option>
+						</select>
+						<h5>Genre</h5>
+						<input type="checkbox" name="genre" value="pop" checked="checked"/>Pop
+						<input type="checkbox" name="genre" value="rock"/>Rock
+						<input type="checkbox" name="genre" value="90s"/>90's Classics
+						<input type="checkbox" name="genre" value="country"/>Country
+						<input type="checkbox" name="genre" value="reggae"/>Reggae
+						<input type="checkbox" name="genre" value="hiphop"/>Hip-Hop
+					</form>
+				</div>
+				<div class="right-song-list">
+					<ul id="song">
+						<li>Crash Into Me</li><!-- change to class not id -->
+						<li>Dave Mathews Band | Crash | 90s Classics</li>
+					</ul>
+					<ul id="song">
+						<li>Tennesee Whiskey</li>
+						<li>Chris Stapleton | Traveler | Country</li>
+					</ul>
+					<ul id="song">
+						<h6>Not Ready to Make Nice</h6>
+						<p>Dixie Chicks | Take the Long Way | Country</p>
+					</ul>
+					<ul id="song">
+						<li>Drink You Away</li>
+						<li>Justin Timberlake | The 20/20 Experience | Pop</li>
+					</ul>
+			</div>
+			</div>
+		<footer>&copy; Krissy Caron 2017</footer>
+	</body>
+</html>
